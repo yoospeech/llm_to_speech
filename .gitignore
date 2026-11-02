@@ -1,0 +1,18 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Local model weights and generated checkpoints
+LFM3-1.7B/
+checkpoints/
+
+# Dataset manifests/reports and local audio are not source code
+data/*.json
+data/*.jsonl
+*.wav
+
+# Runtime/log files
+tensorboard/
+*.log
+.env
